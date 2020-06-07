@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
 
 body, h1, h2, h3, p, img, input {
   margin: 0;
@@ -9,7 +9,7 @@ body{
   background-image: url("./img/bg.jpg");
   color: #000;
   overflow-y: scroll;
-  font-family: 'Sawarabi Mincho', "Hiragino Kaku Gothic ProN",'ヒラギノ角ゴシック',YuGothic,"Yu Gothic",Verdana,Meiryo,sans-serif;
+  font-family: 'Noto Serif JP', "Hiragino Kaku Gothic ProN",'ヒラギノ角ゴシック',YuGothic,"Yu Gothic",Verdana,Meiryo,sans-serif;
   letter-spacing: 0.03em;
 }
 a {
@@ -174,7 +174,6 @@ input[name="right"]{
   -o-transform: rotate(90deg);
 }
 input[name="down"]{
-  /* position: absolute; */
   margin: 60px auto 0px;
   transform: rotate(180deg);
   -ms-transform: rotate(180deg);

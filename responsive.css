@@ -35,10 +35,6 @@
     top: 50px;
     right: 0px;
   }
-  input[name="left"]{
-    top: 50px;
-    left: 0px;
-  }
   .contents-left {
     margin: 0.5em auto;
     display: flex;
