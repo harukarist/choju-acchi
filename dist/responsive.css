@@ -1,0 +1,109 @@
+@media screen and (max-width:750px){
+
+  .container{
+    margin: 20px auto 30px;
+  }
+  .top-page{
+    margin: 40px auto 30px;
+  }
+  .contents-left, .contents-right {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .arrow-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  input[type="submit"].arrow{
+    max-width: 5em;
+    height: auto;
+    -webkit-transform: none;
+    transform: none;
+    background: #000;
+    color: #fff;
+    padding: 0.6em;
+  }
+  input[name="top"]{
+    position: relative;
+    margin: 0 auto;
+  }
+  input[name="left"]{
+    top: 50px;
+    left: 0px;
+  }
+  input[name="right"]{
+    top: 50px;
+    right: 0px;
+  }
+  .contents-left {
+    margin: 0.5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contents-right {
+    margin: 0.5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .animal-left {
+    position: relative;
+    width: 40%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .animal-right {
+    position: relative;
+    width: 60%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .controller-left {
+    position: relative;
+    width: 60%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .controller-right {
+    position: relative;
+    width: 40%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .scroll {
+    margin-top: 1rem;
+    height: 100%;
+    max-height: 40vh;
+  }
+  .history-text {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 0.8rem;
+  }
+  .animal-img-wrapper {
+    text-align: center;
+    margin:0 auto;
+  }
+  .animal-img {
+    max-width: 90%;
+    max-height: 90%;
+    height: auto;
+  }
+  .animal-img.rotate90, .animal-img.rotate270 {
+    width: auto;
+    max-height: 90%;
+  }
+  .player-detail {
+    padding: 10px 10px;
+    margin: 0 auto;
+  }
+  .bottom-nav{
+    margin: 0 auto;
+  }
+  footer {
+    margin-bottom: 3rem;
+  }
+}

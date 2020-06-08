@@ -567,13 +567,13 @@ if (!empty($_POST)) {
   <meta name="description" content="鳥獣たちが向く方向を当てて戦おう！" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@harukarist" />
-  <meta property="og:url" content="https://choju-acchi.harukarist.work/" />
+  <meta property="og:url" content="https://portfolio.harukarist.work/choju-acchi/" />
   <meta property="og:title" content="鳥獣戯画とあっち向いてほい！" />
   <meta property="og:description" content="鳥獣たちが向く方向を当てて戦おう！" />
-  <meta property="og:image" content="https://choju-acchi.harukarist.work/img/twitter-card.png" />
+  <meta property="og:image" content="https://portfolio.harukarist.work/choju-acchi/img/twitter-card.png" />
   <title>鳥獣戯画とあっち向いてほい！</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" type="text/css" href="dist/style.css">
+  <link rel="stylesheet" type="text/css" href="dist/responsive.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" async src="//platform.twitter.com/widgets.js"></script>
 </head>
@@ -592,7 +592,7 @@ if (!empty($_POST)) {
             <p>勝った回数：<span class="result-num"><?php echo $results['winCount']; ?></span>回</p>
             <p>倒した動物：<span class="result-num"><?php echo $results['knockDownCount']; ?></span>匹</p>
 
-            <a href="http://twitter.com/intent/tweet?url=https://choju-acchi.harukarist.work/&text=鳥獣戯画とあっち向いてほい！で遊んだよ → PLAYER：<?php echo $playername; ?>、勝った回数：<?php echo $results['winCount']; ?>回、倒した動物：<?php echo $results['knockDownCount']; ?>匹 &related=harukarist&hashtags=鳥獣戯画とあっち向いてほい,ダ鳥獣戯画" class="button">結果をツイート</a>
+            <a href="http://twitter.com/intent/tweet?url=https://portfolio.harukarist.work/choju-acchi/&text=鳥獣戯画とあっち向いてほい！で遊んだよ → PLAYER：<?php echo $playername; ?>、勝った回数：<?php echo $results['winCount']; ?>回、倒した動物：<?php echo $results['knockDownCount']; ?>匹 &related=harukarist&hashtags=鳥獣戯画とあっち向いてほい,ダ鳥獣戯画" class="button">結果をツイート</a>
 
             <h2 class="top">もういちど始める？</h2>
             <form method="post">
@@ -679,7 +679,7 @@ if (!empty($_POST)) {
   </div>
   <footer>
     <p class="thanks"><a href="https://chojugiga.com/" target="_blank">Special Thanks to ダ鳥獣戯画</a></p>
-    <p class="copyright"><a href="https://www.harukarist.work/" target="_blank">© 2020 harukarist.</a></p>
+    <p class="copyright"><a href="https://portfolio.harukarist.work/" target="_blank">© 2020 harukarist.</a></p>
   </footer>
   <script>
     $(function() {
